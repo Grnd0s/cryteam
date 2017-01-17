@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Prism.unity
+- path: Assets/scenes/Prism.unity
   isLoaded: 1
   isActive: 1
