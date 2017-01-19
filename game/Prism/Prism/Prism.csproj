@@ -247,6 +247,8 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\scripts\Menu\ClickButton.cs" />
+    <Compile Include="Assets\scripts\Menu\TextColor.cs" />
     <Compile Include="Assets\scripts\NetworkManager.cs" />
   </ItemGroup>
   <ItemGroup>

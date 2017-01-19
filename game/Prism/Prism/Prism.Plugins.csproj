@@ -84,6 +84,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Plugins\Menu\BontonScript.cs" />
+    <Compile Include="Assets\Plugins\Menu\ColorText.cs" />
     <Compile Include="Assets\Plugins\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
