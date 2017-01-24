@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ClickButton : MonoBehaviour {
-
-
-
+    
     public TextColor ltext;
     bool isClick = false;
 	// Use this for initialization
@@ -27,5 +26,9 @@ public class ClickButton : MonoBehaviour {
     public void goExit()
     {
         ltext.changeColorToFirst();
+    }
+    public void loadMultiLevel()
+    {
+        Application.LoadLevel("Multi");
     }
 }

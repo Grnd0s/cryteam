@@ -51,7 +51,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Photon Unity Networking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
       for 4.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/All Menu/Menu.unity
+  - enabled: 1
+    path: Assets/Scenes/All Menu/Multi.unity
   - enabled: 1
     path: Assets/Scenes/Test.unity
