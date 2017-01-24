@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ClickButton : MonoBehaviour {
 
@@ -11,7 +12,7 @@ public class ClickButton : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        ltext.changeColorToFirst();
+        goExit();
     }
 	
 	// Update is called once per frame
@@ -19,7 +20,12 @@ public class ClickButton : MonoBehaviour {
 		
 	}
 
-    void goHead()
+    public void goEnter()
     {
+        ltext.changeColorToLast();
+    }
+    public void goExit()
+    {
+        ltext.changeColorToFirst();
     }
 }

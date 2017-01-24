@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TextColor : MonoBehaviour {
     
@@ -20,20 +21,15 @@ public class TextColor : MonoBehaviour {
 	}
     private void OnGUI()
     {
-        theText = firstColor;
     }
 
     public void changeColorToLast()
     {
-
+        GetComponent<Text>().color = lastColor;
     }
     public void changeColorToFirst()
     {
-        GUI.color = firstColor;
+        GetComponent<Text>().color = firstColor;
     }
-
-    public static implicit operator TextColor(Color v)
-    {
-        throw new NotImplementedException();
-    }
+    
 }
